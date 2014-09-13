@@ -1,0 +1,14 @@
+<code>function sumA (a, b) { return a + b; }
+var sumB = function (a, b) { return a + b; };
+var sumC = new Function("a", "b", "return a + b;");
+
+// how to use them
+sumA(4, 5);
+sumB.call({}, 4, 5);
+sumC.apply({}, [4, 5]);</code>
+
+<hr />
+
+<a href="../#/functions">Back to presentation</a>
+
+<link type="text/css" href="../css/examples.css" rel="stylesheet" />
