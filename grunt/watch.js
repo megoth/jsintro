@@ -1,6 +1,6 @@
 module.exports = {
 	'default': {
-	  files: ['src/*.md', 'sass/*.scss'],
+	  files: ['src/*.md', 'sass/*.scss', 'templates/*.html'],
 	  tasks: ['default']
 	},
 	'test': {

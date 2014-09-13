@@ -25,20 +25,139 @@
   <body>
     <div class="reveal">
       <div class="slides">
-<section>
+<section id="start">
+<img src="img/javascript.png" alt="JavaScript logo" />
+</section>
+<section id="intro">
 <h1 id="an-introduction-to-javascript">An introduction to JavaScript</h1>
+<p>October 14th, 2014</p>
+<p>By Arne Hassel</p>
 <ul>
-<li>test</li>
-<li>test</li>
-<li>test</li>
+<li><a href="http://twitter.com/megoth">@megoth</a></li>
+<li><a href="http://icanhasweb.net">icanhasweb.net</a></li>
 </ul>
-<p>More information will come</p>
 </section>
-<section id="test">
-<h1 id="another-test">Another test</h1>
+<section id="why">
+<h2 id="why-learn-javascript">Why learn JavaScript?</h2>
+<ul>
+<li>Just another programming language?</li>
+<li>(Isn't it really, really messy and unstructured!?)</li>
+</ul>
+</section>
+<section id="because">
+<h2 id="javascript-is-awesome-ok">JavaScript is <strong>AWESOME</strong>, ok?</h2>
+<ul>
+<li>De facto programming language of the front-end web
+<ul>
+<li>Supported by all major browsers</li>
+<li>(Is getting more popular on the back-end as well)</li>
+</ul></li>
+<li>Yeah, it's unstructured, deal with it!
+<ul>
+<li>(No, not really, there are options)</li>
+</ul></li>
+</ul>
 </section>
 <section>
-<h1 id="does-this-work">Does this work?</h1>
+<section id="applications">
+<h2 id="you-can-build-a-lot-of-stuff">You can build <strong>a lot</strong> of stuff</h2>
+<ul>
+<li><a href="#webpages">Webpages</a></li>
+<li><a href="#games">Games</a></li>
+<li><a href="#datavis">Data Visualizations</a></li>
+<li><a href="#robots">Program robos</a></li>
+</ul>
+</section>
+<section id="webpages">
+<img src="img/webpages.png" alt="Example of webpages" />
+</section>
+<section id="games">
+<img src="img/games.png" alt="Example of games" />
+</section>
+<section id="datavis">
+<img src="img/datavis.png" alt="Example of data visualizations" />
+</section>
+<section id="robots">
+<img src="img/robots.png" alt="Example of robots" />
+</section>
+</section>
+<section>
+<section id="what-is-javascript">
+<h2 id="so-what-is-javascript">So what <strong>is</strong> JavaScript?</h2>
+<ul>
+<li>Created by <a href="https://brendaneich.com/">Brendan Eich</a> as part of the <a href="http://en.wikipedia.org/wiki/Netscape_(web_browser)">browser Netscape</a> in 1995</li>
+<li>Standardized as <a href="http://www.ecmascript.org/">ECMAScript</a></li>
+<li>Continues to be developed (e.g. <a href="http://www.w3.org/standards/webdesign/script">W3C</a>, <a href="http://www.whatwg.org/">WHATWG</a>)</li>
+</ul>
+</section>
+<section id="features">
+<h2 id="features">Features</h2>
+<ul>
+<li>Scripting (evaluated run-time)</li>
+<li>Object-oriented (-ish) and prototype-based
+<ul>
+<li>Supports inheritance (kinda)</li>
+</ul></li>
+<li>Functional (-ish)
+<ul>
+<li>Funtions are first-class, i.e. objects</li>
+</ul></li>
+</ul>
+</section>
+<section id="confused">
+<h2 id="confused">Confused?</h2>
+Lets do some coding!
+</section>
+</section>
+<section id="variables">
+<h2 id="variables">Variables</h2>
+<pre><code>var a;
+var b = 42;
+var c = &quot;forty two&quot;;</code></pre>
+</section>
+<section id="functions">
+<h2 id="functions">Functions</h2>
+<pre><code>function sumA (a, b) { return a + b; }
+var sumB = function (a, b) { return a + b; };
+var sumC = new Function(&quot;a&quot;, &quot;b&quot;, &quot;return a + b;&quot;);
+
+// how to use them
+sumA(4, 5);
+sumB.call({}, 4, 5);
+sumC.apply({}, [4, 5]);</code></pre>
+</section>
+<section id="objects">
+<h2 id="objects">Objects</h2>
+<pre><code>var objectA = { a: 42 };
+var objectB = new Object();
+objectB.a = 42;
+var constructor = new function (a) { this.a = a; };
+var objectC = new constructor(42);</code></pre>
+</section>
+<section id="arrays">
+<h2 id="arrays-lists">Arrays (lists)</h2>
+<pre><code>var arrayA = [1, 2];
+var arrayB = new Array(1, 2);
+arrayB.push(3); // arrayB is [1, 2, 3]
+arrayB.pop(); // returns 3
+arrayB.unshift(3); // arrayB is [3, 1, 2]
+arrayB.shift() // returns 3</code></pre>
+</section>
+<section id="inline">
+<h2 id="inline-code">Inline code</h2>
+<a href="examples/alert.html">Example</a>
+</section>
+<section id="internal">
+<h2 id="code-in-script-tags">Code in script tags</h2>
+<a href="examples/confirm.html">Example</a>
+</section>
+<section id="external">
+<h2 id="code-in-external-files">Code in external files</h2>
+<a href="examples/prompt.html">Example</a>
+</section>
+<section id="enhanced">
+<h2 id="code-completely-disentangled-from-html">Code completely disentangled from HTML</h2>
+<a href="examples/time.html">Example</a>
 </section>
       </div>
     </div>
