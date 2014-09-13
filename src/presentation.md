@@ -6,6 +6,8 @@
 <section id="intro">
 # An introduction to JavaScript
 
+**NOT COMPLETE**
+
 October 14th, 2014
 
 By Arne Hassel
