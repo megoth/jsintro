@@ -1,4 +1,4 @@
 module.exports = {
-	'default': ['sass', 'markdown'],
+	'default': ['sass', 'shell'],
 	'server': ['http-server']
 };
