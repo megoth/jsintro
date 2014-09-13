@@ -1,0 +1,25 @@
+{
+  "name": "jsintro",
+  "version": "0.0.0",
+  "homepage": "https://github.com/megoth/jsintro",
+  "authors": [
+    "Arne Hassel <arne.hassel@gmail.com>"
+  ],
+  "description": "An introduction to JavaScript",
+  "keywords": [
+    "JavaScript",
+    "Introduction"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "impress.js": "~0.5.3",
+    "reveal.js": "~2.6.2"
+  }
+}
