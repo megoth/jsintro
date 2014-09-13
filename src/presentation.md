@@ -89,43 +89,25 @@ Lets do some coding!
 <section id="variables">
 ## Variables
 
-    var a;
-    var b = 42;
-    var c = "forty two";
+[Example](examples/variables.html)
 </section>
 
 <section id="functions">
 ## Functions
 
-    function sumA (a, b) { return a + b; }
-    var sumB = function (a, b) { return a + b; };
-    var sumC = new Function("a", "b", "return a + b;");
-
-    // how to use them
-    sumA(4, 5);
-    sumB.call({}, 4, 5);
-    sumC.apply({}, [4, 5]);
+[Example](examples/functions.html)
 </section>
 
 <section id="objects">
 ## Objects
 
-    var objectA = { a: 42 };
-    var objectB = new Object();
-    objectB.a = 42;
-    var constructor = new function (a) { this.a = a; };
-    var objectC = new constructor(42);
+[Example](examples/objects.html)
 </section>
 
 <section id="arrays">
 ## Arrays (lists)
 
-    var arrayA = [1, 2];
-    var arrayB = new Array(1, 2);
-    arrayB.push(3); // arrayB is [1, 2, 3]
-    arrayB.pop(); // returns 3
-    arrayB.unshift(3); // arrayB is [3, 1, 2]
-    arrayB.shift() // returns 3
+[Example](examples/arrays.html)
 </section>
 
 <section id="inline">

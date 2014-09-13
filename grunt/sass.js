@@ -4,7 +4,8 @@ module.exports = {
 			compass: true
 		},
     files: {
-      'css/style.css': 'sass/style.scss'
+      'css/style.css': 'sass/style.scss',
+      'css/examples.css': 'sass/examples.scss'
     }
   }
 };
