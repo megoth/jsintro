@@ -25,122 +25,191 @@
   <body>
     <div class="reveal">
       <div class="slides">
-<section id="start">
-<img src="img/javascript.png" alt="JavaScript logo" />
-</section>
-<section id="intro">
+<section>
+<section id="start" class="bright-background" data-background="img/javascript.png">
 <h1 id="an-introduction-to-javascript">An introduction to JavaScript</h1>
-<p><strong>NOT COMPLETE</strong></p>
+<p><a href="http://megoth.github.io/jsintro" class="uri">http://megoth.github.io/jsintro</a></p>
+<h2 id="not-complete">NOT COMPLETE</h2>
 <p>October 14th, 2014</p>
 <p>By Arne Hassel</p>
+</section>
+<section id="overview">
+<h2 id="overview">Overview</h2>
 <ul>
-<li><a href="http://twitter.com/megoth">@megoth</a></li>
-<li><a href="http://icanhasweb.net">icanhasweb.net</a></li>
+<li>Why learn JS?</li>
+<li>Examples of applications</li>
+<li>Coding</li>
+<li>Tips</li>
 </ul>
 </section>
+</section>
+<section>
 <section id="why">
 <h2 id="why-learn-javascript">Why learn JavaScript?</h2>
 <ul>
-<li>Just another programming language?</li>
+<li>Just another programming language?]</li>
 <li>(Isn't it really, really messy and unstructured!?)</li>
 </ul>
 </section>
-<section id="because">
-<h2 id="javascript-is-awesome-ok">JavaScript is <strong>AWESOME</strong>, ok?</h2>
+<section id="standouts">
+<h3 id="just-another-programming-language">Just another programming language?</h3>
 <ul>
-<li>De facto programming language of the front-end web
+<li>It is <strong>De facto programming language of the (front-end) web</strong>
 <ul>
 <li>Supported by all major browsers</li>
 <li>(Is getting more popular on the back-end as well)</li>
 </ul></li>
-<li>Yeah, it's unstructured, deal with it!
+</ul>
+</section>
+<section id="complexity">
+<h3 id="complexity">Complexity</h3>
 <ul>
-<li>(No, not really, there are options)</li>
+<li>JS certainly has its quirks
+<ul>
+<li>Examples: <a href="http://wtfjs.com">wtfjs.com</a>, <a href="http://vimeo.com/94881698">Wat (video)</a></li>
+</ul></li>
+<li>But there are tons of resources
+<ul>
+<li>Clean your code: <a href="http://www.jslint.com/">JSLint</a></li>
+<li>A large community (e.g. <a href="http://stackoverflow.com/questions/tagged/javascript">Stack Overflow</a>)</li>
+<li>Testing tools (e.g. <a href="http://karma-runner.github.io/]">Karma</a>, <a href="http://busterjs.org">Buster</a>)</li>
+</ul></li>
+<li>And lots of frameworks
+<ul>
+<li><a href="http://jquery.com">jQuery</a>, <a href="https://angularjs.org/">AngularJS</a>, <a href="http://emberjs.com/">Ember.js</a>, +++</li>
 </ul></li>
 </ul>
 </section>
+</section>
 <section>
 <section id="applications">
-<h2 id="you-can-build-a-lot-of-stuff">You can build <strong>a lot</strong> of stuff</h2>
+<h2 id="examples-of-applications">Examples of applications</h2>
 <ul>
-<li><a href="#webpages">Webpages</a></li>
+<li><a href="#webpages">Webpages/Apps</a></li>
 <li><a href="#games">Games</a></li>
 <li><a href="#datavis">Data Visualizations</a></li>
 <li><a href="#robots">Program robos</a></li>
 </ul>
 </section>
 <section id="webpages">
+<h3 id="webpagesapps">Webpages/Apps</h3>
 <img src="img/webpages.png" alt="Example of webpages" />
 </section>
 <section id="games">
+<h3 id="games">Games</h3>
 <img src="img/games.png" alt="Example of games" />
 </section>
 <section id="datavis">
+<h3 id="data-visualizations">Data visualizations</h3>
 <img src="img/datavis.png" alt="Example of data visualizations" />
 </section>
 <section id="robots">
+<h3 id="robots">Robots</h3>
 <img src="img/robots.png" alt="Example of robots" />
 </section>
 </section>
+<section id="coding">
+<h2 id="lets-code">Let's code!</h2>
+</section>
 <section>
-<section id="what-is-javascript">
-<h2 id="so-what-is-javascript">So what <strong>is</strong> JavaScript?</h2>
+<section id="syntax">
+<h2 id="syntax">Syntax</h2>
 <ul>
-<li>Created by <a href="https://brendaneich.com/">Brendan Eich</a> as part of the <a href="http://en.wikipedia.org/wiki/Netscape_(web_browser)">browser Netscape</a> in 1995</li>
-<li>Standardized as <a href="http://www.ecmascript.org/">ECMAScript</a></li>
-<li>Continues to be developed (e.g. <a href="http://www.w3.org/standards/webdesign/script">W3C</a>, <a href="http://www.whatwg.org/">WHATWG</a>)</li>
+<li>Variables</li>
+<li>Functions</li>
+<li>Objects</li>
+<li>Arrays</li>
 </ul>
-</section>
-<section id="features">
-<h2 id="features">Features</h2>
-<ul>
-<li>Scripting (evaluated run-time)</li>
-<li>Object-oriented (-ish) and prototype-based
-<ul>
-<li>Supports inheritance (kinda)</li>
-</ul></li>
-<li>Functional (-ish)
-<ul>
-<li>Funtions are first-class, i.e. objects</li>
-</ul></li>
-</ul>
-</section>
-<section id="confused">
-<h2 id="confused">Confused?</h2>
-Lets do some coding!
-</section>
 </section>
 <section id="variables">
-<h2 id="variables">Variables</h2>
+<h3 id="variables">Variables</h3>
 <a href="examples/variables.html">Example</a>
 </section>
 <section id="functions">
-<h2 id="functions">Functions</h2>
+<h3 id="functions">Functions</h3>
 <a href="examples/functions.html">Example</a>
 </section>
 <section id="objects">
-<h2 id="objects">Objects</h2>
+<h3 id="objects">Objects</h3>
 <a href="examples/objects.html">Example</a>
 </section>
 <section id="arrays">
-<h2 id="arrays-lists">Arrays (lists)</h2>
+<h3 id="arrays-lists">Arrays (lists)</h3>
 <a href="examples/arrays.html">Example</a>
 </section>
+</section>
+<section>
+<section id="utilizing-js">
+<h2 id="utilizing-js-in-webpages">Utilizing JS in webpages</h2>
+<ul>
+<li>Inline code</li>
+<li>Script tags</li>
+<li>External files</li>
+<li>Enhancing HTML</li>
+</ul>
+</section>
 <section id="inline">
-<h2 id="inline-code">Inline code</h2>
+<h3 id="inline-code">Inline code</h3>
 <a href="examples/alert.html">Example</a>
 </section>
 <section id="internal">
-<h2 id="code-in-script-tags">Code in script tags</h2>
+<h3 id="code-in-script-tags">Code in script tags</h3>
 <a href="examples/confirm.html">Example</a>
 </section>
 <section id="external">
-<h2 id="code-in-external-files">Code in external files</h2>
+<h3 id="code-in-external-files">Code in external files</h3>
 <a href="examples/prompt.html">Example</a>
 </section>
 <section id="enhanced">
-<h2 id="code-completely-disentangled-from-html">Code completely disentangled from HTML</h2>
+<h3 id="code-completely-disentangled-from-html">Code completely disentangled from HTML</h3>
 <a href="examples/time.html">Example</a>
+</section>
+</section>
+<section>
+<section id="clock">
+<h2 id="lets-create-a-clock">Lets create a clock!</h2>
+<ul>
+<li>Using &quot;pure&quot; JS</li>
+<li>Using jQuery</li>
+<li>Using AngularJS</li>
+</ul>
+</section>
+<section id="clock-js" class="bright-background" data-background="img/javascript.png">
+<h3 id="using-pure-js">Using &quot;pure&quot; JS</h3>
+<a href="examples/clock-js.html">Example</a>
+</section>
+<section id="clock-jquery" class="bright-background" data-background="img/jquery.png">
+<h3 id="using-jquery">Using jQuery</h3>
+<a href="examples/clock-jquery.html">Example</a>
+</section>
+<section id="clock-angular" class="bright-background" data-background="img/angularjs.png">
+<h3 id="using-angularjs">Using AngularJS</h3>
+<a href="examples/clock-angular.html">Example</a>
+</section>
+</section>
+<section id="tips">
+<h2 id="some-final-tips">Some final tips</h2>
+<ul>
+<li>Developer Toolbar is your friend!
+<ul>
+<li>F12 on most browsers (⌘+⎇+I on OS X)</li>
+</ul></li>
+<li>Use the source!
+<ul>
+<li>Ctrl+U on most browsers (⌘+⎇+U on OS X)</li>
+</ul></li>
+<li>Learn <a href="http://en.wikipedia.org/wiki/Test-driven_development">TDD</a>
+<ul>
+<li><a href="http://zombietdd.com/">Zombie TDD</a></li>
+</ul></li>
+</ul>
+</section>
+<section id="outro">
+<h2 id="thank-you">Thank you!</h2>
+<ul>
+<li><a href="http://twitter.com/megoth">@megoth</a></li>
+<li><a href="http://icanhasweb.net">icanhasweb.net</a></li>
+</ul>
 </section>
       </div>
     </div>
