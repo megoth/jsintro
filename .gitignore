@@ -26,7 +26,3 @@ node_modules
 
 # Sass cache
 .sass-cache
-
-# Bower components
-bower_components
-
