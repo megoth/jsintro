@@ -3,13 +3,12 @@
 <section id="start" class="bright-background" data-background="img/javascript.png">
 # An introduction to JavaScript
 
-[http://megoth.github.io/jsintro](http://megoth.github.io/jsintro)
-
-## NOT COMPLETE
-
 October 14th, 2014
 
 By Arne Hassel
+
+* Presentation: [megoth.github.io/jsintro](http://megoth.github.io/jsintro)
+* Repo: [github.com/megoth/jsintro](http://github.com/megoth/jsintro)
 
 </section>
 
@@ -36,7 +35,7 @@ By Arne Hassel
 <section id="standouts">
 ### Just another programming language?
 
-* It is **De facto programming language of the (front-end) web**
+* De facto programming language of the (front-end) web
     * Supported by all major browsers
     * (Is getting more popular on the back-end as well)
 
