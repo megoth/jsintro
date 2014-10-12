@@ -8,7 +8,7 @@ The presentation is available [here](http://megoth.github.io/jsintro).
 Installation
 ------------
 
-Once you've cloned the presentation to your computer, ensure that you've installed [node.js](http://nodejs.org/), [Bower](http://bower.io/) and [Grunt](http://gruntjs.com/). Then run the following commands:
+Once you've cloned the presentation to your computer, ensure that you've installed [node.js](http://nodejs.org/), [Bower](http://bower.io/), [Pandoc](http://johnmacfarlane.net/pandoc/) and [Grunt](http://gruntjs.com/). Then run the following commands:
 
     npm install
     bower install
