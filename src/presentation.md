@@ -49,11 +49,12 @@ By Arne Hassel
 * JS certainly has its quirks
     * Examples: [wtfjs.com](http://wtfjs.com), [Wat (video)](http://vimeo.com/94881698)
 * But there are tons of resources
-    * Clean your code: [JSLint](http://www.jslint.com/)
+    * Check your code: [JSLint](http://www.jslint.com/), [JSHint](http://www.jshint.com/)
     * A large community (e.g. [Stack Overflow](http://stackoverflow.com/questions/tagged/javascript))
     * Testing tools (e.g. [Karma](http://karma-runner.github.io/]), [Buster](http://busterjs.org))
 * And lots of frameworks
     * [jQuery](http://jquery.com), [AngularJS](https://angularjs.org/), [Ember.js](http://emberjs.com/), +++
+    * (Some even have good documentation!)
 
 </section>
 </section>
@@ -68,25 +69,17 @@ By Arne Hassel
 * [Program robos](#robots)
 
 </section>
-<section id="webpages">
+<section id="webpages" class="bright-background" data-background="img/webpages.png">
 ### Webpages/Apps
-
-![Example of webpages](img/webpages.png)
 </section>
-<section id="games">
+<section id="games" class="bright-background" data-background="img/games.png">
 ### Games
-
-![Example of games](img/games.png)
 </section>
-<section id="datavis">
+<section id="datavis" class="bright-background" data-background="img/datavis.png">
 ### Data visualizations
-
-![Example of data visualizations](img/datavis.png)
 </section>
-<section id="robots">
-### Robots
-
-![Example of robots](img/robots.png)
+<section id="robots" class="bright-background" data-background="img/robots.png">
+### Robots!
 </section>
 </section>
 
@@ -170,14 +163,14 @@ By Arne Hassel
 <section id="clock">
 ## Lets create a clock!
 
-* Using "pure" JS
+* Using "pure" JS (-ish)
 * Using jQuery
 * Using AngularJS
 
 </section>
 
 <section id="clock-js" class="bright-background" data-background="img/javascript.png">
-### Using "pure" JS
+### Using "pure" JS (-ish)
 
 [Example](examples/clock-js.html)
 </section>
@@ -210,7 +203,7 @@ By Arne Hassel
 <section id="outro">
 ## Thank you!
 
-* [\@megoth](http://twitter.com/megoth)
-* [icanhasweb.net](http://icanhasweb.net)
+* Twitter: [\@megoth](http://twitter.com/megoth)
+* Webpage: [icanhasweb.net](http://icanhasweb.net)
 
 </section>
