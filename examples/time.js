@@ -1,20 +1,22 @@
-(function ($) {
-  var timeoutButton = document.getElementById("StartTimeout");
-  timeoutButton.onclick = function () {
+window.onload = function () {
+  document.getElementById("StartTimeout").addEventListener("click", function () {
+    console.log("Timeout started");
     setTimeout(function () {
-      console.log("Timeout check-in: ", new Date());
+      console.log("Timeout completed");
     }, 2000);
-    console.log("Timeout started: ", new Date());
-  };
+  });
+
+  // variable interval is an example of closure
   var interval;
-  $("#StartInterval").click(function () {
+  document.getElementById("StartInterval").addEventListener("click", function () {
+    console.log("Interval started");
     interval = setInterval(function () {
-      console.log("Interval check-in: ", new Date());
+      console.log("Interval check-in");
     }, 2000);
-    console.log("Interval started: ", new Date());
   });
-  $("#StopInterval").click(function () {
+
+  document.getElementById("StopInterval").addEventListener("click", function () {
     clearInterval(interval);
-    console.log("Interval stopped: ", new Date());
-  });
-}(jQuery));
+    console.log("Interval stopped");
+  }); 
+};

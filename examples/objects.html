@@ -1,11 +1,16 @@
-<code>var objectA = { a: 42 };
+<div role="main">
+	<code>// Using an object literal
+var objectA = { a: 42 };
+
+// Using an object function
 var objectB = new Object();
 objectB.a = 42;
+
+// Using a construct function
 var constructor = new function (a) { this.a = a; };
 var objectC = new constructor(42);</code>
-
-<hr />
-
-<a href="../#/objects">Back to presentation</a>
+	<br />
+	<a href="../#/objects">Back to presentation</a>
+</div>
 
 <link type="text/css" href="../css/examples.css" rel="stylesheet" />

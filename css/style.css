@@ -48,4 +48,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 body {
   background-color: #ecd63f; }
 
+.bright-background {
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 4px; }
+
 /*# sourceMappingURL=style.css.map */
