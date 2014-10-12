@@ -1,4 +1,5 @@
-<code>function sumA (a, b) { return a + b; }
+<div role="main">
+	<code>function sumA (a, b) { return a + b; }
 var sumB = function (a, b) { return a + b; };
 var sumC = new Function("a", "b", "return a + b;");
 
@@ -6,9 +7,8 @@ var sumC = new Function("a", "b", "return a + b;");
 sumA(4, 5);
 sumB.call({}, 4, 5);
 sumC.apply({}, [4, 5]);</code>
-
-<hr />
-
-<a href="../#/functions">Back to presentation</a>
+	<hr />
+	<a href="../#/functions">Back to presentation</a>
+</div>
 
 <link type="text/css" href="../css/examples.css" rel="stylesheet" />

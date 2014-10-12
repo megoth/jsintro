@@ -1,8 +1,40 @@
 @import "compass/reset";
+@import "compass/css3/flexbox";
+
+html {
+	height: 100%;	
+	min-height: 100%;
+}
 
 body {
+	@include display-flex;
+	@include align-items(center);
+	@include justify-content(center);
 	font-family: Arial, Verdana, Tahoma, serif;
+	height: auto;
+	min-height: 100%;
+}
+
+a {
+	color: blue;
+}
+
+[role="main"] {
+	background: rgba(147,128,108,.1);
+	border-radius: 3px;
+	margin-bottom: 1em;
 	padding: 1em;
+	position: relative;
+	min-width: 30%;
+	aside {
+		border: solid 1px grey;
+		color: grey;
+		padding: 1rem;
+		font-size: 0.8em;
+		margin-top: -1rem;
+		position: absolute;
+		left: 100%;
+	}
 }
 
 code {
@@ -12,4 +44,8 @@ code {
 	margin: 0.5em 0;
 	padding: 0.5em;
 	white-space: pre;
+}
+
+strong {
+	font-weight: bold;
 }
