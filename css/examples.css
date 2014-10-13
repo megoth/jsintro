@@ -144,4 +144,8 @@ button {
     padding: 0 !important;
     margin: -1px !important; }
 
+h1 {
+  font-size: 2em;
+  margin: 0.5rem 0; }
+
 /*# sourceMappingURL=examples.css.map */

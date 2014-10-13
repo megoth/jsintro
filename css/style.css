@@ -48,6 +48,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 body {
   background-color: #ecd63f; }
 
+.reveal td,
+.reveal th {
+  border: 0 solid white;
+  border-bottom-width: 1px;
+  padding: 0.25em; }
+  .reveal td:not(:last-child),
+  .reveal th:not(:last-child) {
+    border-right-width: 1px; }
+.reveal td {
+  border-style: dotted; }
+.reveal tr:last-child td {
+  border-bottom: 0; }
+
 .bright-background {
   background: rgba(0, 0, 0, 0.8);
   border-radius: 4px; }

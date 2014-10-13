@@ -59,3 +59,8 @@ strong {
 button {
 	@include sassy-button("glass");
 }
+
+h1 {
+	font-size: 2em;
+	margin: 0.5rem 0;
+}
