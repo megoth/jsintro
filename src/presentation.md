@@ -201,7 +201,7 @@ By Arne Hassel
 * Inline code
 * Script tags
 * External files
-* Enhancing HTML
+* Progressive enhancement
 
 </section>
 
@@ -212,19 +212,19 @@ By Arne Hassel
 </section>
 
 <section id="internal">
-### Code in script tags
+### Script tags
 
 [Example](examples/confirm.html)
 </section>
 
 <section id="external">
-### Code in external files
+### External files
 
 [Example](examples/prompt.html)
 </section>
 
 <section id="enhanced">
-### Code completely disentangled from HTML
+### Progressive enhancement
 
 [Example](examples/time.html)
 </section>
