@@ -5,7 +5,6 @@
     <title>An introduction to JavaScript</title>
     <meta http-equiv="Content-Language" content="en">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
 
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -14,6 +13,7 @@
 
     <link rel="stylesheet" href="bower_components/reveal.js/css/reveal.min.css">
     <link rel="stylesheet" href="bower_components/reveal.js/css/theme/default.css" id="theme">
+    <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
 
     <!-- For syntax highlighting -->
     <link rel="stylesheet" href="bower_components/reveal.js/lib/css/zenburn.css">
@@ -49,7 +49,10 @@
 <section id="why">
 <h2 id="why-learn-javascript">Why learn JavaScript?</h2>
 <ul>
-<li>Just another programming language?]</li>
+<li>Just another programming language?
+<ul>
+<li>How does it compare to other programming languages?</li>
+</ul></li>
 <li>(Isn't it really, really messy and unstructured!?)</li>
 </ul>
 </section>
@@ -63,12 +66,89 @@
 </ul></li>
 </ul>
 </section>
+<section id="compared-to-java">
+<h3 id="compared-to-java">Compared to Java</h3>
+<table>
+<thead>
+<tr>
+<th>
+Feature
+</th>
+<th>
+<a href="http://en.wikipedia.org/wiki/Java_(programming_language)">Java</a>
+</th>
+<th>
+<a href="http://en.wikipedia.org/wiki/JavaScript">JavaScript</a>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+Objects
+</td>
+<td>
+Classes
+</td>
+<td>
+Prototype-based
+</td>
+</tr>
+<tr>
+<td>
+Interpretation of code
+</td>
+<td>
+Imperative
+</td>
+<td>
+Imperative
+</td>
+</tr>
+<tr>
+<td>
+Functional
+</td>
+<td>
+Yes
+</td>
+<td>
+Supported-ish
+</td>
+</tr>
+<tr>
+<td>
+Type system
+</td>
+<td>
+Static, nominative
+</td>
+<td>
+Dynamic
+</td>
+</tr>
+<tr>
+<td>
+Browser support
+</td>
+<td>
+Plug-in
+</td>
+<td>
+Native
+</td>
+</tr>
+</tbody>
+</table>
+<p>(Note: List is not exhaustive)</p>
+</section>
 <section id="complexity">
 <h3 id="complexity">Complexity</h3>
 <ul>
 <li>JS certainly has its quirks
 <ul>
 <li>Examples: <a href="http://wtfjs.com">wtfjs.com</a>, <a href="http://vimeo.com/94881698">Wat (video)</a></li>
+<li>Cross-browser issues are a pain in the ass (check <a href="http://caniuse.com/">Can I use...</a>)</li>
 </ul></li>
 <li>But there are tons of resources
 <ul>
@@ -80,6 +160,10 @@
 <ul>
 <li><a href="http://jquery.com">jQuery</a>, <a href="https://angularjs.org/">AngularJS</a>, <a href="http://emberjs.com/">Ember.js</a>, +++</li>
 <li>(Some even have good documentation!)</li>
+</ul></li>
+<li>Also, several pre-compilation language options:
+<ul>
+<li><a href="http://coffeescript.org/">CoffeeScript</a>, <a href="http://www.typescriptlang.org/">TypeScript</a>, <a href="https://www.dartlang.org/">Dart</a></li>
 </ul></li>
 </ul>
 </section>
@@ -96,15 +180,51 @@
 </section>
 <section id="webpages" class="bright-background" data-background="img/webpages.png">
 <h3 id="webpagesapps">Webpages/Apps</h3>
+<ul>
+<li>Tons of libraries
+<ul>
+<li><a href="http://jquery.com/">jQuery</a>, <a href="http://momentjs.com/">Moment.js</a>, <a href="http://en.wikipedia.org/wiki/List_of_JavaScript_libraries">+++</a></li>
+</ul></li>
+<li>Tons of frameworks
+<ul>
+<li><a href="https://angularjs.org/">Angular</a>, <a href="http://emberjs.com/">Ember.js</a>, <a href="http://en.wikipedia.org/wiki/Comparison_of_JavaScript_frameworks">+++</a></li>
+</ul></li>
+<li>Several options for cross-device apps
+<ul>
+<li><a href="http://cordova.apache.org/">Cordova</a>, <a href="http://ionicframework.com/">Ionic</a>, <a href="http://en.wikipedia.org/wiki/Multiple_phone_web-based_application_framework">+++</a></li>
+</ul></li>
+<li>Cutting-edge APIs available through <a href="https://www.polymer-project.org/">Polymer</a></li>
+</ul>
 </section>
 <section id="games" class="bright-background" data-background="img/games.png">
 <h3 id="games">Games</h3>
+<ul>
+<li>More and more games
+<ul>
+<li><a href="http://www.html5rocks.com/en/gaming/">Case studies at HTML5 Rocks</a>, <a href="http://hexgl.bkcore.com/">HexGL</a></li>
+</ul></li>
+<li>Many game engines
+<ul>
+<li><a href="http://unity3d.com/">Unity</a>, <a href="https://www.unrealengine.com/">Unreal Engine</a>, <a href="http://biz.turbulenz.com/turbulenz">Turbulenz</a>, <a href="http://en.wikipedia.org/wiki/List_of_game_engines">+++</a></li>
+</ul></li>
+</ul>
 </section>
 <section id="datavis" class="bright-background" data-background="img/datavis.png">
 <h3 id="data-visualizations">Data visualizations</h3>
+<ul>
+<li><a href="http://d3js.org/">D3.js</a>
+<ul>
+<li><a href="http://bost.ocks.org/mike/">Mike Bostock</a></li>
+</ul></li>
+</ul>
 </section>
 <section id="robots" class="bright-background" data-background="img/robots.png">
 <h3 id="robots">Robots!</h3>
+<ul>
+<li><a href="http://cylonjs.com/">Cylon.js</a></li>
+<li><a href="http://nodebots.io/">NodeBots</a></li>
+<li><a href="http://nodecopter.com/">NodeCopter</a></li>
+</ul>
 </section>
 </section>
 <section id="coding">

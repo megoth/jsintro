@@ -27,7 +27,8 @@ By Arne Hassel
 <section id="why">
 ## Why learn JavaScript?
 
-* Just another programming language?]
+* Just another programming language?
+    * How does it compare to other programming languages?
 * (Isn't it really, really messy and unstructured!?)
 
 </section>
@@ -41,12 +42,57 @@ By Arne Hassel
 
 </section>
 
+<section id="compared-to-java">
+### Compared to Java
+
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>[Java](http://en.wikipedia.org/wiki/Java_(programming_language))</th>
+<th>[JavaScript](http://en.wikipedia.org/wiki/JavaScript)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Objects</td>
+<td>Classes</td>
+<td>Prototype-based</td>
+</tr>
+<tr>
+<td>Interpretation of code</td>
+<td>Imperative</td>
+<td>Imperative</td>
+</tr>
+<tr>
+<td>Functional</td>
+<td>Yes</td>
+<td>Supported-ish</td>
+</tr>
+<tr>
+<td>Type system</td>
+<td>Static, nominative</td>
+<td>Dynamic</td>
+</tr>
+<tr>
+<td>Browser support</td>
+<td>Plug-in</td>
+<td>Native</td>
+</tr>
+</tbody>
+</table>
+
+(Note: List is not exhaustive)
+
+</section>
+
 <section id="complexity">
 
 ### Complexity
 
 * JS certainly has its quirks
     * Examples: [wtfjs.com](http://wtfjs.com), [Wat (video)](http://vimeo.com/94881698)
+    * Cross-browser issues are a pain in the ass (check [Can I use...](http://caniuse.com/))
 * But there are tons of resources
     * Check your code: [JSLint](http://www.jslint.com/), [JSHint](http://www.jshint.com/)
     * A large community (e.g. [Stack Overflow](http://stackoverflow.com/questions/tagged/javascript))
@@ -54,6 +100,8 @@ By Arne Hassel
 * And lots of frameworks
     * [jQuery](http://jquery.com), [AngularJS](https://angularjs.org/), [Ember.js](http://emberjs.com/), +++
     * (Some even have good documentation!)
+* Also, several pre-compilation language options:
+    * [CoffeeScript](http://coffeescript.org/), [TypeScript](http://www.typescriptlang.org/), [Dart](https://www.dartlang.org/)
 
 </section>
 </section>
@@ -70,15 +118,39 @@ By Arne Hassel
 </section>
 <section id="webpages" class="bright-background" data-background="img/webpages.png">
 ### Webpages/Apps
+
+* Tons of libraries
+    * [jQuery](http://jquery.com/), [Moment.js](http://momentjs.com/), [+++](http://en.wikipedia.org/wiki/List_of_JavaScript_libraries)
+* Tons of frameworks
+    * [Angular](https://angularjs.org/), [Ember.js](http://emberjs.com/), [+++](http://en.wikipedia.org/wiki/Comparison_of_JavaScript_frameworks)
+* Several options for cross-device apps
+    * [Cordova](http://cordova.apache.org/), [Ionic](http://ionicframework.com/), [+++](http://en.wikipedia.org/wiki/Multiple_phone_web-based_application_framework)
+* Cutting-edge APIs available through [Polymer](https://www.polymer-project.org/)
+
 </section>
 <section id="games" class="bright-background" data-background="img/games.png">
 ### Games
+
+* More and more games
+    * [Case studies at HTML5 Rocks](http://www.html5rocks.com/en/gaming/), [HexGL](http://hexgl.bkcore.com/)
+* Many game engines
+    * [Unity](http://unity3d.com/), [Unreal Engine](https://www.unrealengine.com/), [Turbulenz](http://biz.turbulenz.com/turbulenz), [+++](http://en.wikipedia.org/wiki/List_of_game_engines)
+
 </section>
 <section id="datavis" class="bright-background" data-background="img/datavis.png">
 ### Data visualizations
+
+* [D3.js](http://d3js.org/)
+    * [Mike Bostock](http://bost.ocks.org/mike/)
+
 </section>
 <section id="robots" class="bright-background" data-background="img/robots.png">
 ### Robots!
+
+* [Cylon.js](http://cylonjs.com/)
+* [NodeBots](http://nodebots.io/)
+* [NodeCopter](http://nodecopter.com/)
+
 </section>
 </section>
 
