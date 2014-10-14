@@ -113,7 +113,7 @@ By Arne Hassel
 * [Webpages/Apps](#webpages)
 * [Games](#games)
 * [Data Visualizations](#datavis)
-* [Program robos](#robots)
+* [Program robots](#robots)
 
 </section>
 <section id="webpages" class="bright-background" data-background="img/webpages.png">
@@ -263,11 +263,14 @@ By Arne Hassel
 ## Some final tips
 
 * Developer Toolbar is your friend!
-    * F12 on most browsers (&#8984;+⎇+I on OS X)
+    * F12 on most browsers (&#8984;+&#8997;+I on OS X)
 * Use the source!
-    * Ctrl+U on most browsers (&#8984;+⎇+U on OS X)
+    * Ctrl+U on most browsers (&#8984;+&#8997;+U on OS X)
 * Learn [TDD](http://en.wikipedia.org/wiki/Test-driven_development)
     * [Zombie TDD](http://zombietdd.com/)
+* Some mention-worthy
+    * Webpages: [DailyJS](http://dailyjs.com/), [HTML5 Rocks](http://www.html5rocks.com/), [A List Apart](http://alistapart.com/)
+    * Books: [JavaScript: The Good Parts](http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742)
 
 </section>
 
